@@ -943,7 +943,7 @@
         <div class="floating-element" style="top: 60%; right: 15%;"><div class="floating-heart">💝</div></div>
         
         <div class="container hero-content">
-            <h1 class="name-glow">Nahaaawwwwwwwwwwlaawwwwwwwwwwl</h1>
+            <h1 class="name-glow">Nahaaawwwwwwwwwwlaawwwwwl</h1>
             <p class="lead fs-2" style="color: #9d6b86; margin-bottom: 20px;">This is my heart, written in code</p>
             <p class="heartbeat">Every beat whispers your name</p>
             
@@ -964,15 +964,57 @@
             <h2 class="section-title">My Heartfelt Apology</h2>
             <div class="row justify-content-center">
                 <div class="col-lg-9">
-                    <div class="glass-card">
-                        <div class="typing-text" id="apology-text">
-                            <p class="fs-3" style="color: var(--color-deep-pink); font-family: 'Dancing Script', cursive;">My dearest Nahaaawwwwwwwwwwl,</p>
-                            <p class="fs-5">I'm writing this with a heart full of regret for the pain I've caused you. My past mistakes were never a reflection of how much you mean to me. I was foolish, blind to the treasure I have in you.</p>
-                            <p class="fs-5">Every moment without your smile feels empty. I miss your laughter, your voice, the way your eyes light up when you're happy. I'm truly sorry for hurting you, for making you doubt my love.</p>
-                            <p class="fs-5">Please know that you are the most precious person in my life. I value you more than words can express. I promise to learn from my mistakes and become the man who deserves your incredible heart.</p>
-                            <p class="fs-5">With all my love and deepest regret,</p>
-                            <p class="fs-3 mt-4" style="color: var(--color-deep-pink); font-family: 'Dancing Script', cursive;">Always yours</p>
-                        </div>
+                    <div class="glass-card" style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(12px); border-radius: 20px; padding: 2rem; max-width: 700px; margin: auto; box-shadow: 0 8px 32px rgba(0,0,0,0.2);">
+    <div id="apology-text">
+        <p style="font-size: 2rem; color: #e75480; font-family: 'Dancing Script', cursive; margin-bottom: 1rem; opacity: 0; transform: translateY(20px); transition: all 0.6s ease;">
+            My dearest Nahaaawwwwwwwwwwl,
+        </p>
+
+        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1rem; color: #333; opacity: 0; transform: translateY(20px); transition: all 0.6s ease;">
+            I’m writing this with a heart full of regret for the pain I’ve caused you. 
+            My past mistakes were never a reflection of how much you truly mean to me. 
+            I was foolish and blind to the treasure I have in you.
+        </p>
+
+        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1rem; color: #333; opacity: 0; transform: translateY(20px); transition: all 0.6s ease;">
+            Every moment without your smile feels empty. I miss your laughter, your voice, 
+            and the way your eyes light up when you’re happy. I’m deeply sorry for hurting you 
+            and for ever making you doubt my love.
+        </p>
+
+        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1rem; color: #333; opacity: 0; transform: translateY(20px); transition: all 0.6s ease;">
+            Please know this with certainty — you are the most precious person in my life. 
+            I value you more than words can express. I promise to learn from my mistakes, 
+            to grow, and to become the man who truly deserves your incredible heart.
+        </p>
+
+        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1rem; color: #333; opacity: 0; transform: translateY(20px); transition: all 0.6s ease;">
+            I don’t ask for perfection, only for a chance — a chance to make things right, 
+            to love you better, and to protect the beautiful bond we share.
+        </p>
+
+        <p style="font-size: 1.1rem; margin-top: 1.5rem; opacity: 0; transform: translateY(20px); transition: all 0.6s ease;">
+            With all my love and my deepest regret,
+        </p>
+
+        <p style="font-size: 2rem; margin-top: 1rem; color: #e75480; font-family: 'Dancing Script', cursive; opacity: 0; transform: translateY(20px); transition: all 0.6s ease;">
+            Always yours 🤍
+        </p>
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const paragraphs = document.querySelectorAll("#apology-text p");
+    paragraphs.forEach((p, index) => {
+        setTimeout(() => {
+            p.style.opacity = "1";
+            p.style.transform = "translateY(0)";
+        }, index * 400);
+    });
+});
+</script>
+
                     </div>
                 </div>
             </div>
@@ -1734,4 +1776,5 @@
         });
     </script>
 </body>
+
 </html>
